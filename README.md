@@ -12,4 +12,4 @@ It’s a Clean Architecture so it’s not intended only for web apps, but its fe
 
 I believe Flux is very good choice.
 
-About Delphi Flux I held a session at CodeRage 2018, so you can watch the replay of that session at this link.
+About Delphi Flux I held a session at CodeRage 2018, so you can watch the replay of that session at this [link](https://www.embarcaderoacademy.com/courses/441209/lectures/8446279).
