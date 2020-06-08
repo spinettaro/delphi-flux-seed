@@ -3,7 +3,7 @@ unit DelphiFlux.Stores;
 interface
 
 uses
-  Dispatcher.Flux, EventBus.Commons, BOs, DelphiFlux.Actions;
+  Dispatcher.Flux, EventBus, BOs, DelphiFlux.Actions;
 
 type
 

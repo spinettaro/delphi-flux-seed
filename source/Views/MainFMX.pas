@@ -10,7 +10,7 @@ uses
   FMX.Memo, FMX.ListBox, FMX.ListView.Types, FMX.ListView.Appearances,
   FMX.ListView.Adapters.Base, FMX.ListView, FMX.Calendar, FMX.DateTimeCtrls,
   Data.Bind.EngExt, FMX.Bind.DBEngExt, System.Rtti, System.Bindings.Outputs,
-  FMX.Bind.Editors, Data.Bind.Components, EventBus.Commons, Dispatcher.Flux,
+  FMX.Bind.Editors, Data.Bind.Components, EventBus, Dispatcher.Flux,
   DelphiFlux.ActionCreators, DelphiFlux.Stores;
 
 type

@@ -26,7 +26,7 @@ type
 
   TDispatcher = class(TInterfacedObject, IFluxDispatcher)
   private
-    FBus: TEventBus;
+    FBus: IEventBus;
   public
     constructor Create;
     procedure &Register(const ASubscriber: TObject);
@@ -39,7 +39,7 @@ type
 constructor TDispatcher.Create;
 begin
   inherited Create;
-  FBus := TEventBus.GetDefault;
+  FBus := GlobalEventBus;
 end;
 
 procedure TDispatcher.DoDispatch(const AObj: TObject);
